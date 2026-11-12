@@ -3,6 +3,19 @@
 **FSE 570 Capstone Project**  
 Arizona State University
 
+## 🙋 About this copy (Freya Shah)
+
+This is my copy of our team capstone. My contributions:
+- **Real transcript acquisition and NLP re-run** (with Shalin): collected 1,720 transcripts and kept only the 917 verified real ones.
+- **Final model ablation and SHAP analysis** (with Kruthika).
+- **Results verification and final report** (whole team).
+
+**Key findings from the final report:**
+- Best held-out ROC-AUC: **0.633** (XGBoost on Full + FinBERT features) vs a **0.568** baseline.
+- SHAP showed **7 of the top 10** predictive features were linguistic, so how executives speak carried more signal than raw financials.
+- An autonomous feature discovery agent tested **109** candidate features; none improved cross-validated AUC, an honest negative result.
+  
+
 ## 📋 Project Overview
 
 An AI-powered system that analyzes earnings call transcripts and financial data to predict post-earnings stock performance. The system combines traditional NLP (FinBERT), financial metrics, and agentic AI to generate actionable investment insights.
